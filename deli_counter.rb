@@ -12,5 +12,4 @@ if names.count == 0
 end
 return display
 end
-end
 
