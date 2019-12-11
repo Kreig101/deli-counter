@@ -26,7 +26,7 @@ def take_a_number(array,name)
     puts "There is nobody waiting to be served!"
     elsif 
     people << "Currently serving #{name}."
-    puts people.first
+   
 end
-
+ puts people.first
 end
