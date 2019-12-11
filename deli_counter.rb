@@ -18,6 +18,15 @@ def take_a_number(array,name)
   number = array.length 
   puts "Welcome, #{name}. You are number #{number} in line."
   
+  end
+  
+  def now_serving(name)
+    if name.length == 0
+    puts "There is nobody waiting to be served!"
+    else puts "Currently serving #{name}."
+     
+end
+ name.shift
 end
 
 #"Welcome, #{name}. You are number #{} in line."
