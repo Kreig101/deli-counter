@@ -21,9 +21,11 @@ def take_a_number(array,name)
   end
   
   def now_serving(name)
+    people = []
     if name.length == 0
     puts "There is nobody waiting to be served!"
-
+    elsif "Currently serving #{name}."
+    puts name.first
 end
 
 end
