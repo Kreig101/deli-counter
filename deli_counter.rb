@@ -24,9 +24,7 @@ def take_a_number(array,name)
     if name.length == 0
     puts "There is nobody waiting to be served!"
     else puts "Currently serving #{name}."
-     
-end
- name.shift
+      name.shift
 end
 
-#"Welcome, #{name}. You are number #{} in line."
+end
