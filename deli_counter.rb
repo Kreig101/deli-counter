@@ -23,7 +23,7 @@ def take_a_number(array,name)
   def now_serving(name)
     if name.length == 0
     puts "There is nobody waiting to be served!"
-    elsif puts "Currently serving #{name}."
+    else puts "Currently serving #{name[0]}."
    
 end
 
