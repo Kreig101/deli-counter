@@ -20,10 +20,10 @@ def take_a_number(array,name)
   
   end
   
-  def now_serving(name)
+def now_serving(name)
     if name.length == 0
-    puts "There is nobody waiting to be served!"
-    else puts "Currently serving #{name[0]}."
+      puts "There is nobody waiting to be served!"
+        else puts "Currently serving #{name[0]}."
    
 end
 
